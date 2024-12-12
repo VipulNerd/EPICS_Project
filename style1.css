@@ -1,0 +1,213 @@
+*{
+margin: 0;
+padding: 0;
+}
+.home{
+  background: url('Background_Image.png') center/cover no-repeat;
+  
+  width: 100%; 
+  /* overflow-x : hidden; */
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+
+.header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+  }
+  
+  .logo {
+    height: 70px;
+  }
+  
+  .top-right {
+    margin-right: 30px;
+    display: flex;
+    gap: 20px;
+  }
+  .notification-btn {
+    position: relative;
+  }
+  
+  .notification-badge {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 10px;
+    height: 10px;
+    background-color: #f87171;
+    border-radius: 50%;
+  } 
+
+  
+  .profile-icon {
+    margin-top: 50px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+  }
+  .invert {
+    filter: invert(1);
+  }
+  .main-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .center-logo {
+    height: 30rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+  }
+  .social {
+    margin: 20px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .social img {
+    height: 24px;
+    width: 24px;
+  }
+  .next{
+    background-color: #083F24;
+    height: 100%;
+  }
+          /* Logo at the top left */
+          .left-top-logo2{
+/*             
+            position: absolute; */
+            top: 10px;
+            left: 20px;
+            font-size: 24px;
+            font-weight: bold;
+            color: #333;
+        }
+
+        /* Main content box with buttons */
+        .main-box {
+            width: 70%;
+            margin: 70px auto;
+            padding: 20px;
+            background-color: #04627E;
+            border-radius: 50px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .main-box .buttons-container {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            margin-bottom: 20px;
+           ;
+        }
+
+        /* .main-box .buttons-container button {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #3498db;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        } */
+
+        /* .main-box .buttons-container button:hover {
+            background-color: #2980b9;
+        } */
+
+        /* .main-box .inner-box {
+            /* width: 70%; */
+            /* margin: 20px auto;
+            padding: 20px;
+           
+            border-radius: 15px;
+            text-align: center; */
+          
+
+        .main-box .inner-box button {
+            padding: 10px 20px;
+            background-color: #e74c3c;
+            border-radius: 50%;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .main-box .inner-box button:hover {
+            background-color: #c0392b;
+        }
+
+        /* Two equal boxes in the middle */
+        .equal-boxes {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 20px;
+           
+        }
+
+        .equal-boxes .box {
+            width: 45%;
+            margin-bottom: 70px;
+            height: 450px;
+            width: 500px;
+            background-color: white;
+            border-radius: 10px;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 18px;
+        }
+        .bg-color{
+          background-color: white;
+          border-radius: 20%;
+        }
+        .third-page{
+          background-color: #083F24;
+        }
+        .water-content{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          background-color: #083F24;
+        }
+        .water-content-box{
+          border-radius: 10px;
+          margin-top: 50px;
+          margin-bottom: 70px;
+          background-color: white;
+          height: 80vh;
+          width: 80vw;
+          border: #f87171;
+        }
+        .logos-water{
+          margin-left: 50px;
+          font-size: 40px;
+          display: flex;
+          justify-content: flex-start;
+          align-items: center;
+          gap: 50px;
+          
+        }
